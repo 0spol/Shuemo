@@ -28,7 +28,8 @@ If you have an idea for an enhancement, please open an issue on [GitHub](https:/
 
 ### Your First Pull Request
 
-Working on your first Pull Request? You can learn how from this video by [Midudev](https://github.com/midudev): [How to Contribute to an Open Project on GitHub](https://www.youtube.com/watch?v=niPExbK8lSw&t=358s)
+Working on your first Pull Request? You can learn how from this video by [Midudev](https://github.com/midudev)
+[How to Contribute to an Open Project on GitHub](https://www.youtube.com/watch?v=niPExbK8lSw&t=358s)
 
 ### Submitting a Pull Request
 
@@ -67,18 +68,18 @@ To submit a pull request:
 - Change IPs
 
 **Run FrontEnd**:
-    ```sh
+    ```
     cd React
     ```
-    ```sh
+    ```
     npm install
     ```
-    ```sh
+    ```
     npm run dev 
     ```
 
 **Run BackEnd**:
-    ```sh
+    ```
     cd Spring
     ```
 - Run whit maven
