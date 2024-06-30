@@ -10,7 +10,7 @@ By participating in this project, you agree to abide by our [Code of Conduct](CO
 
 ### Reporting Bugs
 
-If you find a bug, please open an issue on [GitHub](https://github.com/your-repo/shuemo/issues) with:
+If you find a bug, please open an issue on [GitHub](https://github.com/0spol/shuemo/issues) with:
 
 - A clear and descriptive title
 - A detailed description of the issue
@@ -19,7 +19,7 @@ If you find a bug, please open an issue on [GitHub](https://github.com/your-repo
 
 ### Suggesting Enhancements
 
-If you have an idea for an enhancement, please open an issue on [GitHub](https://github.com/your-repo/shuemo/issues) and include:
+If you have an idea for an enhancement, please open an issue on [GitHub](https://github.com/0spol/shuemo/issues) and include:
 
 - A clear and descriptive title
 - A detailed description of the enhancement
@@ -46,7 +46,7 @@ To submit a pull request:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-repo/shuemo.git
+    git clone https://github.com/0spol/shuemo.git
     ```
 
 2. **Navigate to the project directory**:

@@ -1,4 +1,4 @@
-# [Shuemo](https://shuemo.dev/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/your-repo/shuemo/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/shuemo.svg?style=flat)](https://www.npmjs.com/package/shuemo) [![CircleCI Status](https://circleci.com/gh/your-repo/shuemo.svg?style=shield)](https://circleci.com/gh/your-repo/shuemo) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://shuemo.dev/docs/how-to-contribute)
+# [Shuemo](https://shuemo.dev/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/0spol/shuemo/blob/main/LICENSE) [![npm version](https://img.shields.io/npm/v/shuemo.svg?style=flat)](https://www.npmjs.com/package/shuemo) [![CircleCI Status](https://circleci.com/gh/0spol/shuemo.svg?style=shield)](https://circleci.com/gh/0spol/shuemo) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://shuemo.dev/docs/how-to-contribute)
 
 Shuemo is a Final Year Project (TFG) developed by three collaborators: Erik (MeLlamoTawet(https://github.com/MeLLamoTawet)), Ariel (AxxelESP(https://github.com/AxxelESP)), and Gonzalo (0spol(https://github.com/0spol)).
 
@@ -36,7 +36,7 @@ The documentation is divided into several sections:
 * [Where to Get Support](https://shuemo.dev/community)
 * [Contributing Guide](https://shuemo.dev/docs/how-to-contribute)
 
-You can improve it by sending pull requests to [this repository](https://github.com/your-repo/shuemo).
+You can improve it by sending pull requests to [this repository](https://github.com/0spol/shuemo).
 
 ## Examples
 
@@ -69,9 +69,9 @@ Shuemo has adopted a Code of Conduct that we expect project participants to adhe
 
 Read our [contributing guide](https://shuemo.dev/docs/how-to-contribute) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Shuemo.
 
-### [Good First Issues](https://github.com/your-repo/shuemo/labels/good%20first%20issue)
+### [Good First Issues](https://github.com/0spol/shuemo/labels/good%20first%20issue)
 
-To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/your-repo/shuemo/labels/good%20first%20issue) that contain bugs that have a relatively limited scope. This is a great place to get started.
+To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/0spol/shuemo/labels/good%20first%20issue) that contain bugs that have a relatively limited scope. This is a great place to get started.
 
 ### License
 
