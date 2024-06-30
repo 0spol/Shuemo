@@ -1,0 +1,310 @@
+/* resumen cliente */
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  background-color: #161b22;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 0.5em;
+}
+
+.barra-vertical {
+  height: 40px;
+  width: 0.5%;
+  margin-left: 5px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.parte-uno-cli {
+  width: 8em;
+  padding-right: 2%;
+}
+
+.parte-dos-cli {
+  padding-right: 10px;
+}
+
+.parte-tres-cli {
+  width: fit-content;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  display: grid;
+  place-items: center;
+}
+
+.text-uno-cli,
+.text-dos-cli {
+  margin-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-uno-cli {
+  font-size: 10px;
+}
+
+.text-dos-cli {
+  font-size: 14px;
+}
+
+.texto-estado-cli {
+  display: inline;
+  font-size: 12px;
+}
+
+.barra-horizontal-cli {
+  background-color: #4862bd;
+  width: 90%;
+  height: 5px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.semaforo-cli {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+/* Empleado */
+.barra-horizontal-emp {
+  background-color: #d18227;
+  width: 90%;
+  height: 5px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+/* Semáforo */
+.rojo,
+.verde,
+.ambar,
+.rojo-a,
+.verde-a,
+.ambar-a {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+/* Colores apagados para los semáforos no seleccionados */
+.rojo {
+  background-color: rgba(104, 46, 46, 0.5);
+  border: 2px solid rgba(104, 46, 46, 0.7);
+}
+
+.verde {
+  background-color: rgba(27, 75, 27, 0.5);
+  border: 2px solid rgba(27, 75, 27, 0.7);
+}
+
+.ambar {
+  background-color: rgba(190, 161, 17, 0.5);
+  border: 2px solid rgba(190, 161, 17, 0.7);
+}
+
+/* Colores brillantes y coloridos para los semáforos seleccionados */
+.rojo-a {
+  background-color: rgb(255, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.verde-a {
+  background-color: rgb(0, 255, 0);
+  border: 2px solid rgb(0, 255, 0);
+}
+
+.ambar-a {
+  background-color: rgb(255, 193, 7);
+  border: 2px solid rgb(255, 193, 7);
+}
+
+/* resumen citas */
+.resumen-cit {
+  display: flex;
+  width: 23em;
+  justify-content: space-between;
+  background-color: #161b22;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 0.5%;
+}
+
+.parte-uno-cit {
+  padding-right: 3.75em;
+}
+
+.parte-dos-cit {
+  padding-right: 2.5em;
+}
+
+.parte-tres-cit {
+  display: grid;
+  place-items: center;
+  height: 2em;
+}
+
+.parte-cuatro-cit {
+  display: grid;
+  place-items: center;
+  height: 2em;
+}
+
+.text-uno-cit,
+.text-dos-cit {
+  margin-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-uno-cit {
+  font-size: 10px;
+}
+
+.text-dos-cit {
+  font-size: 14px;
+}
+
+.texto-estado-cit {
+  display: inline;
+  font-size: 12px;
+}
+
+.barra-horizontal-cit {
+  background-color: #844700;
+  width: 4em;
+  height: 5px;
+  border-radius: 5px;
+  margin-bottom: 0.1em;
+}
+
+.semaforo-cit {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+/* resumen pagos */
+.resumen-pay {
+  display: flex;
+  width: 23em;
+  justify-content: space-between;
+  background-color: #161b22;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 0.5%;
+}
+
+.parte-uno-pay {
+  width: 8em;
+  padding-right: 2%;
+}
+
+.parte-dos-pay {
+  padding-right: 10px;
+}
+
+.parte-tres-pay {
+  padding-right: 10px;
+}
+
+.parte-cuatro-pay {
+  width: fit-content;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  display: grid;
+  place-items: center;
+}
+
+.text-uno-pay,
+.text-dos-pay {
+  margin-left: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-uno-pay {
+  font-size: 10px;
+}
+
+.text-dos-pay {
+  font-size: 14px;
+}
+
+.texto-estado-pay {
+  display: inline;
+  font-size: 12px;
+}
+
+.barra-horizontal-pay {
+  background-color: #3d7c67;
+  width: 4em;
+  height: 5px;
+  border-radius: 5px;
+  margin-bottom: 0.1em;
+}
+
+.semaforo-pay {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+/* Resumen pagos long */
+.resumen-pay-long {
+  display: flex;
+  background-color: #161b22;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 0.5em;
+}
+
+.resumen-pay-long > div {
+  margin-right: 20px;
+}
+
+.text-uno-pay-long,
+.text-dos-pay-long {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-uno-pay-long {
+  font-size: 12px;
+}
+
+.text-dos-pay-long {
+  font-size: 16px;
+}
+
+.texto-estado-pay-long {
+  font-size: 14px;
+  margin-bottom: 0.1em;
+  margin-left: 0.7em;
+}
+
+.barra-horizontal-pay-long {
+  background-color: #3d7c67;
+  width: 100%;
+  height: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.semaforo-pay-long > div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.semaforo-pay-long {
+  display: flex;
+  align-items: center;
+}

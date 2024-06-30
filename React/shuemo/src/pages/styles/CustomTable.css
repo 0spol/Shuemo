@@ -1,0 +1,15 @@
+/* Estilo para el encabezado de la columna */
+.custom-header-class {
+    color: blue;
+    /* Color de las letras */
+    background-color: yellow;
+    /* Color de fondo */
+}
+
+/* Estilo para las celdas del cuerpo de la columna */
+.custom-cell-class {
+    color: red;
+    /* Color de las letras */
+    background-color: green;
+    /* Color de fondo */
+}

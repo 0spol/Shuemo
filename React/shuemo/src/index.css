@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  /*Ponemos el fondo del color del tema*/
+  background-color: theme("colors.fondo.100");
+  color: theme("colors.white");
+}

@@ -1,0 +1,8 @@
+.primario:hover {
+    background-color: theme("colors.gray.900");
+    /* Utilizando el color de fondo gris oscuro al pasar el ratón desde el tema */
+}
+
+.inputsPersonalizados {
+    @apply mb-4 px-4 py-2 w-full rounded border border-borde-100 bg-fondo-200 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-70
+}

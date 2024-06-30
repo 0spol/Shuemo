@@ -1,0 +1,54 @@
+services:
+  spring:
+    container_name: spring-sh
+    restart: always
+    build:
+      context: ./Spring
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - shuemo_network
+    depends_on:
+      - db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/shuemo?createDatabaseIfNoExist=true&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: 1234
+      REACT_ORIGIN: http://localhost:5173
+      JWT_SIGNING_KEY: estaClaveEsSecreta
+      JWT_ISSUER: shuemo
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 10
+  react:
+    container_name: react-sh
+    restart: always
+    build:
+      context: ./React
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    networks:
+      - shuemo_network
+    depends_on:
+      - spring
+  db:
+    container_name: mysql-sh
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: shuemo
+    ports:
+      - "3306:3306"
+    networks:
+      - shuemo_network
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+networks:
+  shuemo_network:
+    driver: bridge
+volumes:
+  mysql-data:
