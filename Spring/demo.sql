@@ -124,7 +124,7 @@ INSERT INTO tipo_departamento (nombre, descripcion) VALUES
 
 -- Insertar datos en la tabla `departamento`
 INSERT INTO departamento (nombre, descripcion, empresa_id, tipo_dept_id) VALUES 
-('RRHH Corporativo', 'Gestiona recursos humanos', 1, 1),
+('RRHH Corporativo', 'Gestiona recursos humanos', 1, 1);
 
 -- Insertar datos en la tabla `rol`
 INSERT INTO rol (nombre) VALUES 

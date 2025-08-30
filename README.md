@@ -1,10 +1,9 @@
-# [Shuemo](https://shuemo.dev/) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/0spol/shuemo/blob/main/LICENSE)
+# [Shuemo](https://github.com/0spol/shuemo) · [![GitHub license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/0spol/Pakoni/blob/main/LICENSE)
 
-Shuemo is a Final Year Project (TFG) developed by three collaborators: Erik - [MeLlamoTawet](https://github.com/MeLLamoTawet), Ariel - [AxxelESP](https://github.com/AxxelESP), and Gonzalo - [0spol](https://github.com/0spol).
+Shuemo is a basic CRM system designed to facilitate email sending via the Google Mail API. Created as a Final Year Project (TFG) developed by three collaborators: Erik - [MeLlamoTawet](https://github.com/MeLLamoTawet), Ariel - [AxxelESP](https://github.com/AxxelESP), and Gonzalo - [0spol](https://github.com/0spol).
 
-### Shuemo Overview
-
-Shuemo is a basic CRM system designed to facilitate email sending via the Google Mail API. It utilizes a stack including MySQL, Spring Boot, Tailwind CSS, React, Hibernate, Lombok, and more.
+# Screenshots
+![Screenshots showing the app](docs/images/screenshot.png "Screenshots showing the app")
 
 #### Technology Stack:
 - **Backend:** Spring Boot, Hibernate, Lombok
@@ -19,18 +18,11 @@ Shuemo is a basic CRM system designed to facilitate email sending via the Google
 - **Java Development:** Leveraging Spring Boot and Hibernate for efficient backend development.
 - **Component Streamlining:** Implements Lombok for reducing boilerplate code and improving code readability.
 
-## Contributing
+# Contributing
+Read our [contributing guide](./CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes.
 
-The main purpose of this repository is to continue evolving Shuemo core, making it faster and easier to use. Development of Shuemo happens in the open on GitHub, and we are grateful to the community for contributing bugfixes and improvements. Read below to learn how you can take part in improving Shuemo.
+## Code of Conduct
+This repository has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](./CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
-### [Code of Conduct](./CODE_OF_CONDUCT.md)
-
-Shuemo has adopted a Code of Conduct that we expect project participants to adhere to. Please read [the full text](./CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
-
-### [Contributing Guide](./CONTRIBUTING.md)
-
-Read our [contributing guide](./CONTRIBUTING.md) to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Shuemo.
-
-### License
-
-Shuemo is [MIT licensed](./LICENSE).
+# License
+This project is licensed under the [Apache 2.0](./LICENSE.md).

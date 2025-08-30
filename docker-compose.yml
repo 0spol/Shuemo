@@ -16,7 +16,7 @@ services:
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 1234
       REACT_ORIGIN: http://localhost:5173
-      JWT_SIGNING_KEY: estaClaveEsSecreta
+      JWT_SIGNING_KEY: secretPassword
       JWT_ISSUER: shuemo
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
